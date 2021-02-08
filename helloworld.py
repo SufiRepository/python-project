@@ -6,4 +6,7 @@
 # print("spam"*3)
 # print(4*'2')
 
-print("Father's name Uwu")
+# print("Father's name Uwu")
+name = input("What is your name? ")
+color_fav = input("What is your fav color? ")
+print(name + " likes " + color_fav)
