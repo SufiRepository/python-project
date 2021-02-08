@@ -1,5 +1,9 @@
-print('Hello World')
+# print('Hello World')
 
-print(2 + 2)
-print((3**2)//2)
-print(7425 / 550)
+# print(10 // 4)
+# print(1 + 4*3)
+# print('Brian\'s mother: He\'s not an angel. He\'s a boy!')
+# print("spam"*3)
+# print(4*'2')
+
+print("Father's name Uwu")
