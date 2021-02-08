@@ -1,11 +1,49 @@
-if not True:
-    print("1")
-elif not (1+1==3):
-    print("2")
-else:
-    print("3")
+# x = 1
+# while x < 10:
+#     if x%2 == 0:
+#         print(str(x)+" is even")
+#     else:
+#         print(str(x)+" is odd")
+#     x += 1
 
+i = 5
+while True:
+    print(i)
+    i = i - 1
+    if i <= 2:
+        print("Breaking")
+        break
+print("Finished")
+# age = True
+# nrm = 1+1
+# if not age:
+#  print("1")
+# elif not (nrm ==3):
+#  print("2")
+# else:
+#  print("3")
+# i = 4
+# while i <= 5:
+#     print(i)
+#     i = i + 1
+# print("Finished!")
+#
+# j = 3
+# while j>= 0:
+#     print(j)
+#     j = j -1
 
+# nums = ["hello"]
+# nums.append("world")
+# print(nums[1])
+# print(len(nums))
+# print(not 3 in nums)
+# x = 4
+# y = 2
+# if not 1 + 1 == y or x == 4 and 7 == 8:
+#   print("Yes")
+# elif x > y:
+#   print("No")
 
 
 # if 1 + 1 == 2:
