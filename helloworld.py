@@ -1,3 +1,25 @@
+# n = int(input())
+# for x in range(1, n):
+#     if x % 2 == 0:
+#         print(x)
+#         continue
+#     elif x % 3 == 0 and x % 5 == 0:
+#         print("SoloLearn")
+#     elif x % 3 == 0:
+#         print("Solo")
+#     elif x % 5 == 0:
+#         print("Learn")
+#     else:
+#         print(x)
+
+def funct(variable):
+    variable += 1
+    return variable
+
+print(funct(7))
+variab = funct(7)
+print(variab)
+
 # x = 1
 # while x < 10:
 #     if x%2 == 0:
@@ -5,15 +27,52 @@
 #     else:
 #         print(str(x)+" is odd")
 #     x += 1
+# numbers = list(range(5, 20, -2))
+# print(numbers)
+#
+# print(range(20) == range(0, 20))
+#
+# for i in range(5):
+#     print("hello!")
 
-i = 5
-while True:
-    print(i)
-    i = i - 1
-    if i <= 2:
-        print("Breaking")
-        break
-print("Finished")
+# list = [1, 1, 2, 3, 5, 8, 13]
+# print(list[4])
+# print(list[list[4]])
+#
+# for i in range(10):
+#     if not i % 2 == 0:
+#         print(i+1)
+
+# letters = ['x', 'y', 'z']
+# letters.insert(0, 'w')
+# i = 0
+# for i in range(len(letters)):
+#     print(letters[i])
+#
+# print(letters[2])
+
+# str = "testing for loops"
+# count = 0
+#
+# for x in str:
+#     if (x == 't'):
+#         count += 1
+#
+# print(count)
+
+# letters = ['a', 'b', 'c']
+# for l in letters:
+#     print(l)
+
+
+# i = 5
+# while True:
+#     print(i)
+#     i = i - 1
+#     if i <= 2:
+#         print("Breaking")
+#         break
+# print("Finished")
 # age = True
 # nrm = 1+1
 # if not age:
